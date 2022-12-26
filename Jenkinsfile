@@ -8,7 +8,7 @@ node
         sh "npm install"
     }
       stage("Build") {
-       nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
+       nodejs(nodeJSInstallationName: 'nodejs19.3.0') {
         sh 'npm install'
        }
     }  
