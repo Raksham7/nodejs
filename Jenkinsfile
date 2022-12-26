@@ -1,3 +1,4 @@
+def mavenhome = tool name: 'maven3.0.5'
 node 
 {
 
@@ -9,5 +10,10 @@ node
     stage('Build')
     {
         sh "npm install"
+    }
+    stage('ExecuteSonarQubeReport'){
+    nodejs(nodeJSInstallationName: 'nodejs18.6.0'){
+        sh "npm run sonar"
+    }
     }
 }
