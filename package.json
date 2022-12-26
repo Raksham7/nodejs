@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
-    "sonarqube-scanner": "^2.7.0"
+    "sonarqube-scanner": "^8.9.10"
   },
   "engines": {
     "node": "v10.6.0"
