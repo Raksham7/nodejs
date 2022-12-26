@@ -8,7 +8,7 @@ node
         sh "npm install"
     }
        stage('build'){
-        nodejs(nodeJsInstallationName: 'packagejson'){
+        nodejs(nodeJsInstallationName: 'nodejs19.3.0'){
             sh "npm install"
         }
     }
