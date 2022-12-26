@@ -1,10 +1,13 @@
 node 
 {
 
-    stage('checkout') {
+    stage('checkout')
+    {
         git credentialsId: 'git', url: 'https://github.com/Raksham7/nodejs.git'
     }
-    stage('Build') {
+
+    stage('Build')
+    {
         sh "npm install"
     }
 }
