@@ -7,12 +7,4 @@ node
     stage('Build') {
         sh "npm install"
     }
-    stage('ExecuteSonarQubeReport'){
-    nodejs(nodeJSInstallationName: 'nodejs18.6.0'){
-        sh "npm run sonar"
-    }
-    }
-
-
-
 }
