@@ -1,4 +1,3 @@
-def mavenhome = tool name: 'maven3.0.5'
 node 
 {
 
