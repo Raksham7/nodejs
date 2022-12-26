@@ -7,5 +7,11 @@ node
       stage('Build') {
         sh "npm install"
     }
+       stage('build'){
+        nodejs(nodeJsInstallationName: 'packagejson'){
+            sh "npm install"
+        }
+    }
+
 
 }
