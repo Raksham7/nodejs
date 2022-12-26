@@ -1,6 +1,6 @@
 {
   "name": "nodejsexamples",
-  "version": "8.19.3",
+  "version": "19.3.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
@@ -22,11 +22,11 @@
     "sonarqube-scanner": "^2.7.0"
   },
   "engines": {
-    "node": "v8.19.3"
+    "node": "v19.3.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MithunTechnologies/node-js-application"
+    "url": "https://github.com/Raksham7/nodejs"
   },
   "keywords": [
     "node",
